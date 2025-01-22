@@ -1,0 +1,26 @@
+- project.json:
+	- Chứa các cấu hình cụ thể cho dự án.
+	- Thường được tạo khi chúng ta sử dụng Nx Plugins.
+	- Nó cấu hình custom executors (cung cấp tính linh hoạt hơn rất nhiều để chạy các long-time process), được sử dụng thay vì các tập lệnh ** npm. **. [https://nx.dev/configuration/projectjson#configuration-projectjson-and-nxjson](https://nx.dev/configuration/projectjson#configuration-projectjson-and-nxjson)
+- Application (/apps)
+	- Thường chọn NestJs cho Web, Electron cho desktop.
+	- Không chứa business logic, components, services.
+	- Chỉ những thư viện mới được phép imported.
+- Libs (/libs)
+	- Chứa services, components, utils, ...
+	- Nên chia theo scope thay vì type vì dễ maintain/scale và thằng nào chỉ làm nhiệm vụ thằng đó (concept micro-frontend).
+- Tags:
+	- Tag nào sẽ giải quyết vấn đề dependency injection đấy
+	- Điển hình:
+		- **scope-client:** represent web, desktop.
+		- **scope-client-lib:** dependencies (/libs) of each apps.
+		- **scope-shared:** common dependencies of the whole project like ui-kit, services, packages.
+		- **type-feature**
+		- **type-package**
+		- **type-util**
+		- **type-ui:** only UI-kit.
+		- **type-shell:** config for the root of the app like ThemeProvider, Store, ex.
+		- **type-service**
+	- **eslintrc.json**: Chú ý đến tệp này để giải quyết dependency injection
+- Dep graph:
+	- Cho thấy dependency tổng quan của cả project, giúp hạn chế dependency injection

@@ -1,0 +1,22 @@
+- Các thành phần:
+	- app.controller.ts: Chứa các router để xử lý các request và trả về response cho client.
+	- app.controller.spec.ts: Có nhiệm vụ viết unit-test cho các controller.
+	- app.module.ts: Root module của ứng dụng.
+	- app.service.ts: Service chứa các logic mà controller sẽ dùng đến.
+	- main.ts: Sử dụng NestFactory để khởi tạo ứng dụng.
+
+- @Query
+- @Param
+- @Body
+
+- Schema: Tạo schema cho collection trong mongoDB (hoặc các DB khác).
+- DTO: 
+	- Đóng gói dữ liệu để chuyển tiếp giữa các lớp của ứng dụng
+	- type checking, structure definition, data validation (`ValidationPipe`)
+- DTO vs. Interface vs. Schema
+	- DTO sử dụng trong Application Layer for Data transfer. Schema được định nghĩa và sử dụng cho mongoDB, sử dụng trong Data Layer for data storage. DTO validate incoming data from client - Schema ensure data integrity in database.
+	- Nếu có thực thể hoàn toàn trùng lặp thì nên merge dto với schema
+	- https://stackoverflow.com/questions/67262155/what-is-the-difference-between-dtos-interfaces-and-schema-in-nest-js
+	- https://stackoverflow.com/questions/65323915/what-is-the-best-practice-about-dto-schema-or-interface-for-typing-in-typescrip
+- ValidationPipe
+- 
