@@ -1,0 +1,1 @@
+https://github.com/IntersectMBO/essential-cardano/blob/main/essential-cardano-list.md#native-tokens

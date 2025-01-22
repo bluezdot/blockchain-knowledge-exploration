@@ -1,0 +1,7 @@
+- mnemonic -> 
+- entropy -> 
+- extended private key (XPrv):
+	- 32 bytes: Ed25519-bip32
+	- 32 bytes: Ed25519 binary blob used as IV for signing
+	- 32 bytes: chaincode for allowing secure child key derivation
+-  
