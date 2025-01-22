@@ -1,0 +1,7 @@
+- Docs:
+	- Vấn đề: Tài sản bị phân mảnh trên nhiều chain, cần convert về target chain để sử dụng => Phức tạp, cần nhiều step, cần tìm best route.
+- UX:
+	- Không biết thoát/xoá account kiểu gì
+	- Không export được mnemonic
+	- Không đổi được mạng testnet
+	- Lúc import hiển thị 1 đống option địa chỉ, chưa hiểu mục đích
