@@ -1,0 +1,64 @@
+- Chain support
+	- Fusion+
+		- [Ethereum Mainnet](https://ethereum.org/)
+		- [Arbitrum](https://arbitrum.io/)
+		- [Avalanche](https://www.avax.network/)
+		- [BNB Chain](https://www.binance.com/en/support/announcement/854415cf3d214371a7b60cf01ead0918)
+		- [Gnosis](https://www.xdaichain.com/)
+		- [Optimism](https://www.optimism.io/)
+		- [Polygon](https://polygon.technology/)
+		- [Base](https://docs.base.org/)
+
+		- Benefit:
+			- Cross-chain
+	- Intent-based swaps (Fusion)
+		- [Ethereum Mainnet](https://ethereum.org/)
+		- [Aurora](https://aurora.dev/)
+		- [Arbitrum](https://arbitrum.io/)
+		- [Avalanche](https://www.avax.network/)
+		- [BNB Chain](https://www.binance.com/en/support/announcement/854415cf3d214371a7b60cf01ead0918)
+		- [Fantom](https://fantom.foundation/)
+		- [Gnosis](https://www.xdaichain.com/)
+		- [Kaia](https://www.kaia.io/)
+		- [Optimism](https://www.optimism.io/)
+		- [Polygon](https://polygon.technology/)
+		- [zkSync Era](https://docs.zksync.io/build)
+		- [Base](https://docs.base.org/)
+
+		- Benefit:
+			- Flexibility
+			- Protect from MEV
+			- Many network support than Fushion+
+	- Classic swap
+		- [Ethereum Mainnet](https://ethereum.org/)
+		- [Aurora](https://aurora.dev/)
+		- [Arbitrum](https://arbitrum.io/)
+		- [Avalanche](https://www.avax.network/)
+		- [BNB Chain](https://www.binance.com/en/support/announcement/854415cf3d214371a7b60cf01ead0918)
+		- [Fantom](https://fantom.foundation/)
+		- [Gnosis](https://www.xdaichain.com/)
+		- [Kaia](https://www.kaia.io/)
+		- [Optimism](https://www.optimism.io/)
+		- [Polygon](https://polygon.technology/)
+		- [zkSync Era](https://docs.zksync.io/build)
+		- [Base](https://docs.base.org/)
+
+		- Benefit:
+			- Tốt nhất cho user ưu tiên rate hiệu quả và tuỳ chỉnh giao dịch trong 1 blockchain đơn lẻ hoặc các blockchain tương thích.
+
+		- Logic:
+			- tìm quote ngon nhất: `https://api.1inch.dev/swap/v6.0/{chain}/quote`
+				- Quotes có thể trả về bao gồm cả tokenInfo, gasInfo, protocols (tương ứng providers/dexes) sử dụng.
+				- complexityLevel: Số lượng token-connectors -> Tương tự Route length mình đang trao đổi.
+				- token-connector: Set token mà swap route có thể đi qua.
+				- mainRouteParts: limit maximum number of main route parts; should be the same for a quote and swap -> ?
+			- swap:
+				- allowPartialFill: có thể dừng 1 phần swap nếu rate ko còn ngon.
+
+			- find trusted spender
+			- gen approval data
+			- get number of allowance token
+			- list nguồn thanh khoản (protocols) khả dụng cho routing
+			- list token khả dụng để swap
+- References:
+https://portal.1inch.dev/documentation/apis/swap/introduction

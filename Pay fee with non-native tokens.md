@@ -1,0 +1,13 @@
+- Cần chú ý liquidity pool của token trả phí. Nếu quá thấp nên cả warning user.
+- Pool cặp thanh khoản luôn bao gồm native asset. Các hành động có thể thực hiện
+	- Tạo pool thanh khoản
+	- Cung cấp thanh khoản
+	- Trao đổi LP token -> asset
+	- Swap
+	- Truy vấn tỉ giá
+	- Truy vấn kích thước pool thanh khoản
+
+- Các Hàm cần dùng
+	- query.assetConversion.pools
+	- tx.assetConversion
+	- calls.assetConversionApi. ... -> get ratio price

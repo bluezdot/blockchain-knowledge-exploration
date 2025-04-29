@@ -40,3 +40,8 @@ ADA:
 - Số lượng của custom token ko ảnh hưởng tới min-ada-value của output. Số loại custom token làm tăng min-ada-value. -> Vì làm tăng storage.
 - Send custom tokens luôn bao gồm send min-ada-value tới địa chỉ nhận vào cùng output
 - Lưu ý: Trước khi gửi custom tokens, người dùng có thể chọn off-chain communication để đàm phán ai cung cấp ada để cover min-ada-value.
+
+
+Native versus non-native MA support:
+- Sổ cái hỗ trợ built-in func để lưu vết thông tin ownership và transfer nhiều loại asset -> Loại này gọi là native (bao gồm Cardano blockchain)
+- Nền tảng tiền điện tử 

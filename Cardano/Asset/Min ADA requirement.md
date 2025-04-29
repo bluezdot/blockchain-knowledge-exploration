@@ -24,4 +24,3 @@ Ref:
 	- minADA được yêu cầu lock vào mỗi UTxO dựa theo storage size, giúp hạn chế lãng phí UTxO size trên sổ cái.
 	- Khuyến khích giải phóng ADA locked = cách merge UTXOs trong ví.
 	- Hydra - layer 2 solution cho Cardano cho phép send ADA < 1.
-	- 

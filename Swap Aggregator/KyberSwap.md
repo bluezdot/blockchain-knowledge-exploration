@@ -1,0 +1,9 @@
+- Chain support
+	- Ethereum (ChainID: 1)
+	- BSC (ChainID: 56)
+	- Arbitrum (ChainID: 42161)
+	- Polygon PoS (ChainID: 137)
+	- Optimism (ChainID: 10)
+	- Fantom (ChainID: 250)
+	- Avalanche (ChainID: 43114)
+	- Linea (ChainID: 59144)

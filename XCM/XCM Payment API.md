@@ -1,0 +1,6 @@
+- Usages:
+	- Get weight execute XCM.
+	- Get acceptable AssetIds pay execute fee.
+	- Calculate weight in specified AssetId.
+	- Estimate fee XCM message delivery.
+- References: https://docs.polkadot.com/develop/interoperability/xcm-runtime-apis/

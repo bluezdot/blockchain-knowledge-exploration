@@ -18,3 +18,11 @@
 		- Duy trì trạng thái contract; `continuity`: giúp cùng 1 contract code được sử dụng suốt chuỗi giao dịch; `datum`: script dữ liệu contract cụ thể, sử dụng trong lúc node validate transaction.
 		- Phí được tính chính xác trước khi gửi
 	- `EUTXO = UTXO + contract script + datum`
+
+
+----
+Grok3:
+![[Pasted image 20250226180758.png]]
+![[Pasted image 20250226180816.png]]
+
+Comment: - Thực ra việc add arbitrary data vào utxos thì bitcoin cũng đã phát triển rồi

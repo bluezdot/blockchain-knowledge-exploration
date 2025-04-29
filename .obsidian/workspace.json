@@ -210,6 +210,156 @@
             }
           },
           {
+            "id": "1a3e7e82528b3cce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Staking/Validator chưa trigger rw.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Validator chưa trigger rw"
+            }
+          },
+          {
+            "id": "ab1beb4609cf9321",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pay fee with non-native tokens.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pay fee with non-native tokens"
+            }
+          },
+          {
+            "id": "1e359321504ae6cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Checklist.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Checklist"
+            }
+          },
+          {
+            "id": "35388e10078c7ff1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cardano/CIP-59 - Cardano phases and eras.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CIP-59 - Cardano phases and eras"
+            }
+          },
+          {
+            "id": "86c95acd89d1eae0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cardano/CIP-59 - Cardano phases and eras.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CIP-59 - Cardano phases and eras"
+            }
+          },
+          {
+            "id": "e533a91681b7300e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cardano/Asset/Min ADA requirement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Min ADA requirement"
+            }
+          },
+          {
+            "id": "2fdd762cd84f976b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cardano/Asset/Min ADA requirement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Min ADA requirement"
+            }
+          },
+          {
+            "id": "7ac2b454ce82348c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cardano/Asset/Min ADA requirement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Min ADA requirement"
+            }
+          },
+          {
+            "id": "a22e787d02656c82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cardano/Asset/Native Assets.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Native Assets"
+            }
+          },
+          {
+            "id": "8ea9454535935806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swap Aggregator/1Inch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1Inch"
+            }
+          },
+          {
+            "id": "24c56e7154bd3fe4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "31774f7857c99f29",
             "type": "leaf",
             "state": {
@@ -334,7 +484,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -353,7 +503,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -476,53 +627,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "434432cab6d79c28",
+  "active": "24c56e7154bd3fe4",
   "lastOpenFiles": [
-    "BackEnd/Nx.md",
-    "BackEnd/NestJS.md",
-    "BackEnd/MongoDB.md",
-    "BackEnd/GraphQL vs. REST.md",
-    "AccountAbstraction (AA) - ChainAbstraction (CA)/ERC-7702.md",
-    "AccountAbstraction (AA) - ChainAbstraction (CA)/ERC-4337.md",
-    "AccountAbstraction (AA) - ChainAbstraction (CA)/EIP-7702.md",
-    "AccountAbstraction (AA) - ChainAbstraction (CA)/Untitled.md",
-    "AccountAbstraction (AA) - ChainAbstraction (CA)/Arcana Wallet.md",
-    "Middleware service.md",
-    "README.md",
+    "XCM/xcm-decision-tree.md",
+    "XCM/XCM PR Improvement.md",
+    "XCM/XCM Fee discussion.md",
+    "2025-01-14.md",
+    "XCM/XCM Payment API.md",
+    "Pasted image 20250325105150.png",
+    "Swap Aggregator/KyberSwap.md",
+    "Swap Aggregator/1Inch.md",
+    "Swap Aggregator",
+    "Excalidraw/Validate recipient address.md",
+    "Excalidraw/Flow Send Transaction.md",
+    "Excalidraw/CLAIM AVAIL BRIDGE.md",
+    "Excalidraw/Bitcoin Asset.md",
+    "Excalidraw/Advanced Derivation.excalidraw.md",
+    "AccountAbstraction (AA) - ChainAbstraction (CA)/Search swap pairs.md",
+    "Cardano/Fee/Fee.md",
+    "Cardano/Asset/test balance.md",
+    "Cardano/Asset/Serialize-lib.md",
+    "Cardano/Asset/Native Assets.md",
+    "Cardano/Asset/Min ADA requirement.md",
+    "Cardano/Asset/Cardano SDKs & Libs.md",
+    "Cardano/Asset/Blockfrost API.md",
+    "Cardano/Asset/ADA - NATIVE - ERC20.md",
+    "Images/Pasted image 20241120151158.png",
+    "Cardano/Account Json.md",
+    "Cardano/Cardano research.md",
+    "Cardano/Others Wallet/Typhoonjs.md",
+    "Cardano/Others Wallet/OthersWallet.md",
+    "Images/Pasted image 20241217153918.png",
+    "Images/Pasted image 20241217153726.png",
+    "Images/Pasted image 20241217153558.png",
+    "Cardano/Validate unsigned tx.md",
+    "Images/Pasted image 20241217112122.png",
+    "Images/Pasted image 20241217122013.png",
+    "Pasted image 20250226180816.png",
+    "Pasted image 20250226180758.png",
     "Images/Pasted image 20250115175202.png",
     "Untitled.canvas",
-    "Cardano/CIP-2 - Coin Selection Algorithms.md",
-    "Cardano/Asset/Serialize-lib.md",
-    "Cardano/Asset/Min ADA requirement.md",
-    "Cardano/Fee/Fee.md",
-    "Bitcoin base knowledge/Transaction/Cách decode transaction hash -> raw transaction.md",
-    "Bitcoin base knowledge/Transaction/Sequence & Locktime.md",
-    "Bitcoin base knowledge/Transaction/Bitcoin Raw transaction.md",
-    "Bitcoin base knowledge/Transaction/Bitcoin Fee.md",
-    "Bitcoin base knowledge/Transaction/Bitcoin Block size.md",
-    "Images/Pasted image 20250115182652.png",
-    "Images/Pasted image 20250115181107.png",
-    "Images/Pasted image 20250115181054.png",
-    "Images/Pasted image 20250115181051.png",
-    "Images/Pasted image 20250115175903.png",
-    "Images/Pasted image 20250115175515.png",
-    "Images/Pasted image 20250115175209.png",
     "AccountAbstraction (AA) - ChainAbstraction (CA)",
-    "Checklist.md",
-    "2025-01-14.md",
-    "Excalidraw/Drawing 2025-01-14 09.36.12.excalidraw.md",
-    "Refactoring/When refactor?.md",
-    "React/Hooks.md",
-    "Images/Pasted image 20250113180201.png",
     "Cardano/Others Wallet",
-    "Images/Pasted image 20240828123421.png",
     "BackEnd",
     "Cardano/Fee",
     "Cardano/Asset",
     "Cardano",
     "Inapp Notification",
     "BlockedActionsList",
-    "React",
-    "XCM"
+    "React"
   ]
 }
