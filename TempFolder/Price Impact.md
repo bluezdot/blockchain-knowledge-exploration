@@ -44,7 +44,7 @@ Base formulation:
 - Detail: 
   - m/n = m / (y - k / x') = m / (y - k / (x + m)) = m / ((xy + my - k) / (x + m)) = m * (x + m) / my = (x + m) / y.
   - PI = ((x + m) / y) /  (x / y) - 1 = (x + m) / x - 1 = m / x
-
+ 
 [https://support.uniswap.org/hc/en-us/articles/8643794102669-Price-Impact-vs-Price-Slippage](https://support.uniswap.org/hc/en-us/articles/8643794102669-Price-Impact-vs-Price-Slippage)
 - #### Price Impact
 The change in token price directly caused by your trade. Price Impact is reflected as the difference between the current market price and how your trade impacts the total liquidity in a pool.  
@@ -62,3 +62,17 @@ The change in token price caused by the total movement of the entire current mar
 [https://blog.uniswap.org/uniswap-v3-math-primer](https://blog.uniswap.org/uniswap-v3-math-primer)  
 [https://blog.uniswap.org/uniswap-v3-math-primer-2](https://blog.uniswap.org/uniswap-v3-math-primer-2)  
 [https://medium.com/luchadores-chronicles/how-to-calculate-price-impact-b4c87d8b10ed](https://medium.com/luchadores-chronicles/how-to-calculate-price-impact-b4c87d8b10ed)
+
+
+
+----
+Updated: 2025.05.26
+
+Nên sử dụng Formula 2 hiển thị cho tính năng swap của non-custodial wallet.
+
+```
+E research thì thấy 2 công thức dùng để đánh giá các ý nghĩa khác nhau. Công thức 3 để đánh giá sự tác động của swap đến price giữa 2 token trong pool sau khi swap xong -> Price pool sau so với Price pool ban đầu. Công thức 2 để đánh giá hiệu quả của tỉ lệ swap được so với Price ban đầu -> Price swap thực tế so với Price pool ban đầu.
+Theo góc độ user sử dụng swap thì e thấy sử dụng công thức 2 sẽ hợp lí hơn vì nó quan tâm đến hiệu quả của swap thay vì quan tâm đến tác động của swap tới pool thanh khoản
+```
+
+https://grok.com/share/bGVnYWN5_49ea1b95-11e0-4f58-a099-8bebbcbc4e59
