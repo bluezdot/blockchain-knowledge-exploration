@@ -72,20 +72,6 @@
             }
           },
           {
-            "id": "f75d6fc4c3db970d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
             "id": "244c63141301eae7",
             "type": "leaf",
             "state": {
@@ -97,6 +83,20 @@
               },
               "icon": "lucide-file",
               "title": "Note to read"
+            }
+          },
+          {
+            "id": "f75d6fc4c3db970d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -365,12 +365,68 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TempFolder/Price Impact.md",
+                "file": "Swap Aggregator/Issue-4468.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Price Impact"
+              "title": "Issue-4468"
+            }
+          },
+          {
+            "id": "9e14a4dd2e35d47c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimex.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Optimex"
+            }
+          },
+          {
+            "id": "b986f56ea3ea8d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimex.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Optimex"
+            }
+          },
+          {
+            "id": "25b5481748584016",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimex.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Optimex"
+            }
+          },
+          {
+            "id": "c1c64e3f14ceb76c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimex.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Optimex"
             }
           },
           {
@@ -498,7 +554,7 @@
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 30
       }
     ],
     "direction": "vertical"
@@ -632,6 +688,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -641,13 +698,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c1a4a21b354292a",
+  "active": "c1c64e3f14ceb76c",
   "lastOpenFiles": [
+    "AHM.md",
+    "Optimex.md",
     "XCM/xcm-decision-tree.md",
     "XCM/XCM PR Improvement.md",
-    "XCM/XCM Fee discussion.md",
-    "2025-01-14.md",
     "XCM/XCM Payment API.md",
+    "XCM/XCM Fee discussion.md",
+    "Swap Aggregator/Issue-4468.md",
+    "BackEnd/REST API Design Checklist.md",
+    "BackEnd/GraphQL vs. REST.md",
+    "TempFolder/Price Impact.md",
+    "2025-01-14.md",
     "Pasted image 20250325105150.png",
     "Swap Aggregator/KyberSwap.md",
     "Swap Aggregator/1Inch.md",
@@ -665,16 +728,10 @@
     "Cardano/Asset/Min ADA requirement.md",
     "Cardano/Asset/Cardano SDKs & Libs.md",
     "Cardano/Asset/Blockfrost API.md",
-    "Cardano/Asset/ADA - NATIVE - ERC20.md",
     "Images/Pasted image 20241120151158.png",
-    "Cardano/Account Json.md",
-    "Cardano/Cardano research.md",
-    "Cardano/Others Wallet/Typhoonjs.md",
-    "Cardano/Others Wallet/OthersWallet.md",
     "Images/Pasted image 20241217153918.png",
     "Images/Pasted image 20241217153726.png",
     "Images/Pasted image 20241217153558.png",
-    "Cardano/Validate unsigned tx.md",
     "Images/Pasted image 20241217112122.png",
     "Images/Pasted image 20241217122013.png",
     "Pasted image 20250226180816.png",
