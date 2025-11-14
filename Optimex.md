@@ -14,5 +14,5 @@ Fee:
 - body request của initTrade yêu cầu nhiều địa chỉ, cần làm rõ.
 - deposit bitcoin ko thấy eth về.
 - UI theo dõi channel.
-
-// TODO: This is a placeholder for the actual response status
+--
+- UI theo dõi channel trên mainnet

@@ -421,12 +421,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimex.md",
+                "file": "Multi-signature.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimex"
+              "title": "Multi-signature"
+            }
+          },
+          {
+            "id": "512da38de49a903d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multi-signature.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multi-signature"
+            }
+          },
+          {
+            "id": "f40e2b5dd84865db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Improve block action.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Improve block action"
             }
           },
           {
@@ -554,7 +582,7 @@
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 32
       }
     ],
     "direction": "vertical"
@@ -698,10 +726,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1c64e3f14ceb76c",
+  "active": "f40e2b5dd84865db",
   "lastOpenFiles": [
-    "AHM.md",
+    "Excalidraw/Advanced Derivation.excalidraw.md",
+    "Improve block action.md",
+    "Excalidraw/Bitcoin Asset.md",
     "Optimex.md",
+    "Multi-signature.md",
+    "Pasted image 20251009145457.png",
+    "Middleware service.md",
+    "Pasted image 20250930155933.png",
+    "Pasted image 20250924165600.png",
+    "Excalidraw/Drawing 2025-09-24 10.56.59.excalidraw.md",
+    "TON/Developing/API/API.md",
+    "TON/Developing/API/Get adjacent transactions.md",
+    "TON/Developing/1. TonHelloWorld - Wallet.md",
+    "TON/Fee/Fee.md",
+    "TON/Core/TVM.md",
+    "TON/Core/TL-B Language.md",
+    "TON/Core/Cells - Data Storage.md",
+    "TON/Blogs/Six unique aspects of TON Blockchain.md",
+    "TON/Address/TEP-2 TON Address.md",
+    "TON/Address/Send bounce or unbounce.md",
+    "AHM.md",
     "XCM/xcm-decision-tree.md",
     "XCM/XCM PR Improvement.md",
     "XCM/XCM Payment API.md",
@@ -710,33 +757,14 @@
     "BackEnd/REST API Design Checklist.md",
     "BackEnd/GraphQL vs. REST.md",
     "TempFolder/Price Impact.md",
-    "2025-01-14.md",
     "Pasted image 20250325105150.png",
-    "Swap Aggregator/KyberSwap.md",
-    "Swap Aggregator/1Inch.md",
     "Swap Aggregator",
-    "Excalidraw/Validate recipient address.md",
-    "Excalidraw/Flow Send Transaction.md",
-    "Excalidraw/CLAIM AVAIL BRIDGE.md",
-    "Excalidraw/Bitcoin Asset.md",
-    "Excalidraw/Advanced Derivation.excalidraw.md",
-    "AccountAbstraction (AA) - ChainAbstraction (CA)/Search swap pairs.md",
-    "Cardano/Fee/Fee.md",
-    "Cardano/Asset/test balance.md",
-    "Cardano/Asset/Serialize-lib.md",
-    "Cardano/Asset/Native Assets.md",
-    "Cardano/Asset/Min ADA requirement.md",
-    "Cardano/Asset/Cardano SDKs & Libs.md",
-    "Cardano/Asset/Blockfrost API.md",
     "Images/Pasted image 20241120151158.png",
     "Images/Pasted image 20241217153918.png",
     "Images/Pasted image 20241217153726.png",
     "Images/Pasted image 20241217153558.png",
     "Images/Pasted image 20241217112122.png",
     "Images/Pasted image 20241217122013.png",
-    "Pasted image 20250226180816.png",
-    "Pasted image 20250226180758.png",
-    "Images/Pasted image 20250115175202.png",
     "Untitled.canvas",
     "AccountAbstraction (AA) - ChainAbstraction (CA)",
     "Cardano/Others Wallet",
