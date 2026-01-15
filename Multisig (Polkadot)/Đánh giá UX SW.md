@@ -1,0 +1,27 @@
+- Notification
+	- Hiển thị 1 tab riêng cho multisig, UX không tốt
+		- Đề xuất hiển thị chung và có filter. Nếu muốn highlight multisig thì thêm toggle list cho multisig
+	- Bỏ remind notification
+- Suy nghĩ luồng chọn signer.
+	- Với proxy, bổ sung 1 checkbox, hoặc toggle để chọn sign = bản thân ngay từ đầu, để ko ảnh hưởng luồng.
+- Xử lí trường hợp khởi tạo 2 giao dịch y hệt
+	- Gặp lỗi No timepoint ở giao dịch sau vì pallet đang hiểu nhầm là mình muốn execute cái giao dịch gốc.
+		- Có thể skip case này.
+		- Có thể improve bằng cách bổ sung 1 cái UX để check nếu có callhash y hệt đang pending thì yêu cầu người dùng reject cái đấy hoặc thông báo với các signer approve cái đấy thay vì tạo 1 cái mới y hệt.
+- Xử lý cho mạng Hydration, tính năng chọn phí
+	- Trường hợp set phí
+	- Trường hợp người dùng đang có config sẵn chọn token khác trả phí
+- Chú ý 1 số mạng dùng old multisig pallet
+- Bổ sung phần signer của proxy account
+	- Cần kiểm tra xem đoạn trả ra list proxy để kí như nào
+	- Bổ sung hàm để wrap proxy extrinsic
+- History:
+	- Chỉ lưu history
+		- Init multisig.
+		- Approve multisig.
+		- Execute multisig.
+		- Cancel multisig.
+	- Không lưu history của innerCall bởi vì nó không thực sự submit cái gì on-chain cả. -> Nghiên cứu phương án bổ sung sau.
+- Confirmation:
+	- Chỉ có 1 màn confirmation chung cho tất cả các loại giao dịch
+	- Hiện tại chỉ custom riêng cho Transfer.
