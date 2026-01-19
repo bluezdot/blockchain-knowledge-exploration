@@ -1,9 +1,12 @@
 - Notification
-	- Hiển thị 1 tab riêng cho multisig, UX không tốt
-		- Đề xuất hiển thị chung và có filter. Nếu muốn highlight multisig thì thêm toggle list cho multisig
-	- Bỏ remind notification
+	- Hiển thị 1 tab riêng cho multisig, UX không tốt.
+		- Đề xuất hiển thị chung và có filter. Nếu muốn highlight multisig thì thêm toggle list cho multisig.
+	- Bỏ remind notification.
+	- Xem xét improve: bổ sung thông tin ghi chú để biết người dùng đã approve.
 - Suy nghĩ luồng chọn signer.
 	- Với proxy, bổ sung 1 checkbox, hoặc toggle để chọn sign = bản thân ngay từ đầu, để ko ảnh hưởng luồng.
+	- Recheck case chọn signer xong reload, ko remove được cái previousTx.
+	- History của giao dịch proxy đang lưu theo account from và theo extrinsic type gốc => Nghĩ UX hợp lí hơn.
 - Xử lí trường hợp khởi tạo 2 giao dịch y hệt
 	- Gặp lỗi No timepoint ở giao dịch sau vì pallet đang hiểu nhầm là mình muốn execute cái giao dịch gốc.
 		- Có thể skip case này.

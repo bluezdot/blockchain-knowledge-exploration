@@ -529,12 +529,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inapp Notification/Claim Avail bridge.md",
+                "file": "Pay fee with non-native tokens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claim Avail bridge"
+              "title": "Pay fee with non-native tokens"
             }
           },
           {
@@ -648,7 +648,7 @@
             }
           }
         ],
-        "currentTab": 37
+        "currentTab": 38
       }
     ],
     "direction": "vertical"
@@ -792,54 +792,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54f6ef49c18baf26",
+  "active": "31774f7857c99f29",
   "lastOpenFiles": [
-    "Multisig (Polkadot)/Timepoint & Weight in Multisig.md",
+    "README.md",
+    "Pay fee with non-native tokens.md",
+    "Optimex.md",
+    "Middleware service.md",
+    "Checklist validate recipient.md",
+    "AHM.md",
+    "OpenGov/6. APIs.md",
+    "OpenGov/5. Approval & Support Curve.md",
+    "OpenGov/4. OpenGov vs. Governance V1.md",
+    "OpenGov/3. Polkadot Technical Fellowship (PTF).md",
+    "OpenGov/2. OpenGov Origin.md",
+    "OpenGov/1. OpenGov Model.md",
+    "BlockedActionsList/Đề xuất improve block action.md",
+    "BlockedActionsList/BlockedActionsList.md",
+    "Images/Pasted image 20260116111203.png",
+    "Inapp Notification/Claim Avail bridge.md",
+    "Untitled.md",
     "Multisig (Polkadot)/Đánh giá UX SW.md",
-    "Multisig (Polkadot)/Đánh giá code multisig Nova.md",
+    "Untitled",
+    "Multisig (Polkadot)/Test luồng.md",
     "Multisig (Polkadot)/Multi-signature.md",
+    "Multisig (Polkadot)/Đánh giá code multisig Nova.md",
+    "Images/Pasted image 20260116111126.png",
+    "Multisig (Polkadot)/Timepoint & Weight in Multisig.md",
     "Multisig (Polkadot)",
     "Alpha Ecosystem/TrustedStake.md",
     "Alpha Ecosystem/Tổng quan.md",
     "Alpha Ecosystem/Backprop Finance.md",
     "Alpha Ecosystem/Rubicon.md",
-    "Pasted image 20251223161943.png",
-    "Pasted image 20251223161926.png",
+    "Images/Pasted image 20251223161943.png",
+    "Images/Pasted image 20251223161926.png",
     "Alpha Ecosystem",
     "XCM/XCM Payment API.md",
-    "XCM/XCM PR Improvement.md",
-    "XCM/xcm-decision-tree.md",
-    "XCM/XCM Fee discussion.md",
-    "Excalidraw/CLAIM AVAIL BRIDGE.md",
-    "Excalidraw/Flow Send Transaction.md",
-    "Excalidraw/Drawing 2025-09-24 10.56.59.excalidraw.md",
-    "Excalidraw/health check.md",
-    "Excalidraw/Inscription relationship.md",
-    "Excalidraw/Nháp.md",
-    "Excalidraw/Rune UTXOs.md",
-    "Excalidraw/Send Runes.md",
-    "Excalidraw/Transaction Format.md",
-    "Excalidraw/Validate recipient address.md",
-    "Excalidraw/Advanced Derivation.excalidraw.md",
-    "Improve block action.md",
-    "Excalidraw/Bitcoin Asset.md",
-    "Optimex.md",
-    "Pasted image 20251009145457.png",
-    "Pasted image 20250930155933.png",
-    "Pasted image 20250924165600.png",
-    "Pasted image 20250325105150.png",
+    "Images/Pasted image 20251009145457.png",
+    "Images/Pasted image 20250930155933.png",
+    "Images/Pasted image 20250924165600.png",
+    "Images/Pasted image 20250325105150.png",
     "Swap Aggregator",
     "Images/Pasted image 20241120151158.png",
     "Images/Pasted image 20241217153918.png",
-    "Images/Pasted image 20241217153726.png",
-    "Images/Pasted image 20241217153558.png",
     "Untitled.canvas",
     "AccountAbstraction (AA) - ChainAbstraction (CA)",
     "Cardano/Others Wallet",
     "BackEnd",
     "Cardano/Fee",
     "Cardano/Asset",
-    "Cardano",
-    "Inapp Notification"
+    "Cardano"
   ]
 }
