@@ -11,13 +11,15 @@
 	- Gặp lỗi No timepoint ở giao dịch sau vì pallet đang hiểu nhầm là mình muốn execute cái giao dịch gốc.
 		- Có thể skip case này.
 		- Có thể improve bằng cách bổ sung 1 cái UX để check nếu có callhash y hệt đang pending thì yêu cầu người dùng reject cái đấy hoặc thông báo với các signer approve cái đấy thay vì tạo 1 cái mới y hệt.
+		- Thử thêm UX các sản phẩm khác (Nova, Multix).
 - Xử lý cho mạng Hydration, tính năng chọn phí
 	- Trường hợp set phí
 	- Trường hợp người dùng đang có config sẵn chọn token khác trả phí
 - Chú ý 1 số mạng dùng old multisig pallet
+	- Check dựa vào params maxWeight khi muốn thêm mạng multisig khác.
 - Bổ sung phần signer của proxy account
-	- Cần kiểm tra xem đoạn trả ra list proxy để kí như nào
-	- Bổ sung hàm để wrap proxy extrinsic
+	- Cần kiểm tra xem đoạn trả ra list proxy để kí như nào.
+	- Bổ sung hàm để wrap proxy extrinsic.
 - History:
 	- Chỉ lưu history
 		- Init multisig.

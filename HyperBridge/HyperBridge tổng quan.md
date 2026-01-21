@@ -1,0 +1,28 @@
+Tài liệu:
+- Protocol specs: https://docs.hyperbridge.network/protocol/
+- Dev docs: https://docs.hyperbridge.network/developers/
+---
+- Bridge Polkadot to Evm-based chains
+- Sử dụng ISCP
+- Quy trình:
+	- 1. Sender sends assets to Gateway Contract or Pallet
+	- 2. Relayers: Collect messages and submit them to HyperBridge (on Polkadot).
+	- 3. Hyperbridge: Validates the state proofs of the source chain.
+	- 4. Destination Chain: Once validated, assets are released or minted on the dest chain.
+		- Nhìn chung thì việc tích hợp sẽ chỉ cần làm step 1.
+- `@hyperbridge/sdk`:
+	- Routing queries
+	- Fee estimation
+		- Relayer fee
+		- Protocol fee
+	- Transaction construction
+- Challenge period: Khoảng thời gian thử thách, đợi và cho phép các fisherman báo cáo giả mạo.
+---
+FAQ:
+- Đã support cho Polkadot chưa? Không thông config của polkadot, cũng không thấy xuất hiện trên explorer. Trên app của HyperBridge có bridge DOT (Polkadot)?
+- Làm sao để tìm thông tin `stateMachineId` của các mạng substrate
+	- Polkadot.js? `ismp.`
+	- Và cả các config khác
+		- ![[Pasted image 20260119181337.png]]
+		- ![[Pasted image 20260119181350.png]]
+- Docs hiện tại khá kĩ thuật và phù hợp cho việc tích hợp cho các parachain tích hợp hoặc Fisherman.
