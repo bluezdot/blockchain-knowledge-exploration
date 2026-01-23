@@ -1,7 +1,7 @@
 1. Public Address:
 	Địa chỉ thông thường, dùng để gửi nhận các tài sản public (Night, MNTs).
 2. Shielded Address:
-	Địa chỉ bí mật: nơi các giao dịch ẩn danh được diễn ra, dựa theo cơ chế `Zcash-style shileded addresses`. Địa chỉ này ẩn danh tính của người gửi nhận với bên thứ 3. Chỉ có những người có `Viewing Keys` tương ứng mới thấy được nội dung gửi.
+	Địa chỉ bí mật: nơi các giao dịch ẩn danh được diễn ra, dựa theo cơ chế `Zcash-style shielded addresses`. Địa chỉ này ẩn danh tính của người gửi nhận với bên thứ 3. Chỉ có những người có `Viewing Keys` tương ứng mới thấy được nội dung gửi.
 	Lưu trữ và quản lí tất cả token 1 cách riêng tư.
 3. DUST Address:
    Cũng thuộc kiểu Shielded Address nhưng có vai trò đặc biệt. Sử dụng để liên kết designate từ NIGHT để nhận DUST như energy của tài khoản. Mục đích của DUST chỉ là để trả phí gas từ ví đó.

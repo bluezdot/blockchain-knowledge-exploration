@@ -7,7 +7,7 @@ Note: **Mapping Validator** đóng vai trò cực kỳ quan trọng, nhưng nó 
 Để đưa cNIGHT từ Cardano sang Midnight, bạn thực hiện qua các bước sau
 #### Bước 1: Shielding (Khóa tài sản trên Cardano)
 Bạn không gửi NIGHT vào một địa chỉ ví Midnight thông thường. Thay vào đó, bạn gửi cNIGHT vào một **Shielding Contract** trên mạng Cardano.
-- Khi giao dịch này được xác nhận, số cNIGHT đó bị "khóa" lại trên Cardano.
+- Khi giao dịch này được xác nhận, số cNIGHT đó bị "khóa" lại trên Carda no.
 - Hệ thống **Observability Layer** của Midnight sẽ quét thấy sự kiện này.    
 
 #### Bước 2: Đúc (Mint) NIGHT trên Midnight

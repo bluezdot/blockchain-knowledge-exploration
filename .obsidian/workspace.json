@@ -557,12 +557,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Midnight/Cơ chế.md",
+                "file": "Midnight/Yêu cầu phát triển Midnight Wallet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cơ chế"
+              "title": "Yêu cầu phát triển Midnight Wallet"
             }
           },
           {
@@ -822,11 +822,12 @@
   },
   "active": "c74089eb12b92c4e",
   "lastOpenFiles": [
-    "Midnight/Address & Balance.md",
-    "Midnight/Cơ chế.md",
+    "Midnight/Tokenomics.md",
     "Midnight/Bridge cNIGHT (Cardano) to NIGHT (Midnight).md",
+    "Midnight/Cơ chế Registration.md",
     "Midnight/Khó khăn trong quá trình tích hợp.md",
-    "Midnight/Tóm tắt nhu cầu phát triển Midnight Wallet.md",
+    "Midnight/Address & Balance.md",
+    "Midnight/Yêu cầu phát triển Midnight Wallet.md",
     "Midnight/Untitled",
     "Pasted image 20260122153217.png",
     "Ripple/Wallet.md",
@@ -860,7 +861,6 @@
     "BlockedActionsList/Đề xuất improve block action.md",
     "BlockedActionsList/BlockedActionsList.md",
     "Images/Pasted image 20260116111203.png",
-    "Inapp Notification/Claim Avail bridge.md",
     "Images/Pasted image 20260116111126.png",
     "Multisig (Polkadot)",
     "Alpha Ecosystem",
